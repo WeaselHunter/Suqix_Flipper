@@ -4,4 +4,4 @@ Hello, this is where any flipper files I create or record will be uploaded! Use 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the LICENSE file for details
