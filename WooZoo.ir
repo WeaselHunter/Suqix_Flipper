@@ -1,0 +1,56 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: ON/ OFF
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 00 FF 00 00
+# 
+name: Vertical
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 16 E9 00 00
+# 
+name: Horizontal
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 15 EA 00 00
+# 
+name: SPEED--
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 10 EF 00 00
+# 
+name: SPEED++
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 08 F7 00 00
+# 
+name: Natural Breeze
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 09 F6 00 00
+# 
+name: Sleep 1
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 12 ED 00 00
+# 
+name: Sleep 2
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0E F1 00 00
+# 
+name: Sleep 3
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0A F5 00 00

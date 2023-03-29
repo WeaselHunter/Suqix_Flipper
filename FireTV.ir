@@ -1,0 +1,26 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: ON/ OFF
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: Volume++
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Volume--
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+# 
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4605 4424 636 1620 691 1566 635 1623 609 493 635 494 634 519 608 495 608 518 610 1622 661 1598 657 1622 582 521 632 496 632 497 630 473 604 523 631 1626 631 1626 631 1626 604 1628 629 497 632 498 631 497 604 499 630 498 631 497 631 497 604 499 630 1626 630 1627 630 1626 605 1652 579
